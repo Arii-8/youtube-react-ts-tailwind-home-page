@@ -1,0 +1,29 @@
+/*
+ * ---------------------------------
+ * History & instructure npm install tutorial youtube cloning react typescrip tailwind
+ * 
+ */
+
+1 - npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+setup: config tailwind
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+2 - npm install lucide-react
+3 - npm install class-variance-authority tailwind-merge
+
+
+/* Run project */
+npm run dev
